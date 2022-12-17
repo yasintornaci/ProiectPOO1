@@ -133,11 +133,11 @@ istream& operator>>(istream& in, eveniment& e)
 	in >> buffer;
 	e.setTipEv(buffer.c_str());
 
-	cout << "Data la care doriti sa participati la eveniment";
+	cout << "Data la care doriti sa participati la eveniment: ";
 	in >> e.dataEv;
-	cout << "Ora la care doriti sa participati la eveniment ";
+	cout << "Ora la care doriti sa participati la eveniment: ";
 	in >> e.oraEv;
-	cout << "Locatia unde doriti sa participati la eveniment";
+	cout << "Locatia unde doriti sa participati la eveniment: ";
 	in >> e.locatieEv;
 	return in;
 }
